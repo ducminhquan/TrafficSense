@@ -1,0 +1,8 @@
+applications:
+- host: TrafficSensePredict
+  name: TrafficSensePredict
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M

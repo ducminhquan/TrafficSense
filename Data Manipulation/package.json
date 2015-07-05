@@ -1,0 +1,16 @@
+{
+  "name": "TrafficSense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phan Hong An",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "mqtt": "^1.3.3",
+    "request": "^2.58.0"
+  }
+}
