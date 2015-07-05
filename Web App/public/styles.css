@@ -1,0 +1,183 @@
+html {
+  font-family: Tahoma;
+}
+
+core-drawer-panel [main] paper-icon-button {
+  display: none;
+
+}
+
+core-drawer-panel[narrow] [main] paper-icon-button {
+  display: inline-block
+}
+
+[drawer] {
+  background-color: #fce4ec;
+  border-right: 1px solid #ccc;
+}
+
+[drawer] .content h4 {
+  font-weight: normal;
+}
+
+[drawer] core-toolbar {
+  color:#e7e9fd;
+  background-color: #e91e63;
+}
+
+[drawer] paper-checkbox {
+  padding: 20px 20px 20px 20px;
+}
+
+[main] {
+  background-color: #e7e9fd;
+  height: 100%;
+}
+
+[main] .content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+[main] section core-header-panel {
+  height:100%;
+}
+
+[main] core-toolbar {
+  color:#e7e9fd;
+  background-color: #5677fc;
+}
+
+[main] core-toolbar paper-fab {
+  background-color: #e91e63;
+  right: 24px;
+  position: absolute;
+  bottom: -24px;
+  z-index: 1;
+}
+
+.news_card {
+  margin: 10px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.news_card .news_card_icon {
+  width:60px;
+  height:60px;
+  padding:20px;
+  /*border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;*/
+  box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+}
+
+.news_card .news_card_content {
+  margin: 10px;
+}
+
+
+/*Red*/
+paper-button.fire,
+paper-button.accident,
+paper-button.jam,
+.fire core-toolbar,
+.accident core-toolbar,
+.jam core-toolbar,
+.fire .news_card_icon,
+.accident .news_card_icon,
+.jam .news_card_icon {
+  background-color:#f36c60;
+}
+
+/*Yellow*/
+
+paper-button.roadwork,
+paper-button.flood,
+paper-button.heavy,
+paper-button.police,
+.roadwork core-toolbar,
+.flood core-toolbar,
+.heavy core-toolbar,
+.police core-toolbar,
+.roadwork .news_card_icon,
+.flood .news_card_icon,
+.heavy .news_card_icon,
+.police .news_card_icon,
+.yellow .news_card_icon {
+  background-color:#ffb74d;
+}
+
+
+/*Green*/
+paper-button.free,
+.free core-toolbar,
+.free .news_card_icon,
+.green .news_card_icon {
+  background-color:#42bd41;
+}
+
+.news_card .news_card_icon .icon {
+  width:100%;
+  height:100%;
+}
+
+/*Icons*/
+.free .news_card_icon .icon{
+  content: url(icons/free.svg);
+}
+
+.roadwork .news_card_icon .icon{
+  content: url(icons/roadwork.svg);
+}
+
+.fire .news_card_icon .icon{
+  content: url(icons/fire.svg);
+}
+
+.flood .news_card_icon .icon{
+  content: url(icons/flood.svg);
+}
+
+.heavy .news_card_icon .icon{
+  content: url(icons/heavy.svg);
+}
+
+.accident .news_card_icon .icon{
+  content: url(icons/accident.svg);
+}
+
+.jam .news_card_icon .icon{
+  content: url(icons/jam.svg);
+}
+
+.police .news_card_icon .icon{
+  content: url(icons/police.svg);
+}
+
+
+/*Detail Page*/
+#second {
+}
+
+#post .content {
+  padding: 20px;
+}
+
+paper-button.category {
+  margin: 1px;
+}
+
+#postButton {
+  background-color: #e91e63;
+}
+
+
